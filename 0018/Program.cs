@@ -2,18 +2,20 @@
 
 bool Check(int a, int b)
 {
-    return a*a = b;
+    return a*a == b;
 }
 
 int a, b;
+System.Console.Write("Введите число: ");
 string? s = Console.ReadLine();
 a = Convert.ToInt32(s);
+System.Console.Write("Введите число: ");
 s = Console.ReadLine();
 b = Convert.ToInt32(s);
 
 if (Check(a,b))
 {
-    System.Console.WriteLine("b не является квадратом a");
+    System.Console.WriteLine("b является квадратом a");
 }
 else
 {
