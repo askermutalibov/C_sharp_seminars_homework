@@ -5,7 +5,7 @@ Console.WriteLine(int.MaxValue); // макс. значение целого чи
 Console.WriteLine(double.MaxValue); // макс. значение вещественного числа для системы
 */
 
-/* 
+/*
 int FirstNumber = 1658;
 int SecondNumber = FirstNumber * FirstNumber;
 System.Console.WriteLine(SecondNumber);
@@ -19,7 +19,7 @@ System.Console.WriteLine("{0}^2={1}", FirstNumber,SecondNumber); // строка
 System.Console.WriteLine($"{FirstNumber}^2={SecondNumber}"); // строка интерполяции
 */
 
-/* 
+/*
 string? s; // объявление переменной
 s = Console.ReadLine(); // присвоение значения
 System.Console.WriteLine(s);
@@ -36,7 +36,7 @@ System.Console.WriteLine($"{a}^2={b}");
 
 double a;
 double b;
-string? s=Console.ReadLine();
-a=Convert.ToDouble(s);
-b=a*a;
+string? s = Console.ReadLine();
+a = Convert.ToDouble(s);
+b = a * a;
 System.Console.WriteLine($"{a}^2={b}");
