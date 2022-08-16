@@ -2,7 +2,7 @@
 
 Console.Write("Введите целое число больше 2 (например 8 или 145): "); // больше 2 для корректной работы методов
 string? AString = Console.ReadLine();
-int AConvert = Convert.ToInt32(AString);
+int AConvert = Convert.ToInt32(AString); // эта версия алгоритма пока не работает, уточню у однокурсников рабочий алгоритм
 
 void FillArray(int[] FirstArray)
 {
