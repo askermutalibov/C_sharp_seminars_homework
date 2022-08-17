@@ -1,13 +1,15 @@
 ﻿// Найти сумму чисел от 1 до А. 
-int i, A; 
-int sum = 0; 
-Console.Write("Введите число: ");
-string? s = Console.ReadLine();
-A = Convert.ToInt32(s);
-for (i=1; i <=A; i++) {
-sum = sum+i;
+
+Console.Write("Введите число, которое будет выполнять роль верхней границы последовательности чисел, для которой нужно вывести на экран их сумму: ");
+string? Astring = Console.ReadLine();
+int A = Convert.ToInt32(Astring);
+int i;
+int sum = 0;
+for (i = 1; i <= A; i++)
+{
+    sum = sum + i;
 }
-System.Console.WriteLine(sum);
+System.Console.WriteLine($"Сумма чисел от 1 до {A} равна {sum}");
 
 /*
 
