@@ -1,4 +1,17 @@
-﻿// Найти сумму чисел от 1 до А
+﻿// Найти сумму чисел от 1 до А. 
+
+Console.Write("Введите число, которое будет выполнять роль верхней границы последовательности чисел, для которой нужно вывести на экран их сумму: ");
+string? Astring = Console.ReadLine();
+int A = Convert.ToInt32(Astring);
+int i;
+int sum = 0;
+for (i = 1; i <= A; i++)
+{
+    sum = sum + i;
+}
+System.Console.WriteLine($"Сумма чисел от 1 до {A} равна {sum}");
+
+/*
 
 Console.Write("Введите целое число больше 2 (например 8 или 145): "); // больше 2 для корректной работы методов
 string? AString = Console.ReadLine();
@@ -27,7 +40,8 @@ void PrintArray(int[] FirstArray)
         Console.WriteLine(FirstArray[index]);
     }
 }
-
+*/
+/*
 void SortArray(int[] FirstArray)
 {
     int SortLength = AConvert;
@@ -40,11 +54,16 @@ void SortArray(int[] FirstArray)
         index++;
     }
 }
+*/
+/*
 
 int[] FirstArray = new int[AConvert];
+
 /* int index = 0;
 int count = 2; */
 
+/*
 FillArray(FirstArray);
 PrintArray(FirstArray);
 SortArray(FirstArray);
+*/
