@@ -1,4 +1,17 @@
-﻿// Вывести на экран кубы чисел от 1 до N
+﻿// Вывести на экран кубы чисел от 1 до N.
+
+Console.Write("Введите число, которое будет выполнять роль верхней границы последовательности чисел, для которой нужно вывести на экран их значения в 3-й степени: ");
+string? Nstring = Console.ReadLine();
+int i;
+int I;
+int N = Convert.ToInt32(Nstring);
+for (i = 1; i <= N; i++)
+{
+    I = i * i * i;
+    Console.WriteLine($"куб числа {i} равен {I}");
+}
+
+/*
 
 Console.Write("Введите целое число больше 2 (например 3 или 7): "); // больше 2 для корректной работы методов
 string? FromUserString = Console.ReadLine();
@@ -48,3 +61,4 @@ void Cubes(int[] UnFilledArray) // метод возведения числа в
     }
 }
 Cubes(UnFilledArray);
+*/
