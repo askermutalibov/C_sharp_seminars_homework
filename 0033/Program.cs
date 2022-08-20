@@ -11,5 +11,5 @@ for (int i = 0; i < eightArray.Length; i++)
 
 for (int i = 0; i < eightArray.Length; i++)
 {
-    System.Console.Write($"{eightArray[i], 3}");
+    System.Console.Write($"{eightArray[i], 5}");
 }
