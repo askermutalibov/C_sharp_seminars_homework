@@ -11,7 +11,7 @@ int Cube = 0;
 while ((count <= CubesInt) && (count % 2 == 0))
 {
     Cube = (CubesInt * CubesInt * CubesInt);
-    count = (count + 2);
+    count++;
     if ((count == CubesInt))
     {
         Console.WriteLine($"куб числа {CubesInt} равен {Cube}");
