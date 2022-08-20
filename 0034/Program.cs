@@ -12,11 +12,12 @@ for (int i = 0; i < a.Length; i++)
     a[i] = random.Next(-9, 10);
 }
 int sumPositive = 0;
-// print array
+// print 
+Console.WriteLine();
 
 for (int i = 0; i < a.Length; i++)
 {
-    System.Console.Write($"{a[i],4}"); // выделяем 4 знакоместа (но можно это реализовать просто через пробелы)
+    Console.Write($"{a[i],5}"); // выделяем 4 знакоместа (но можно это реализовать просто через пробелы)
 }
 
 // solution
@@ -28,7 +29,7 @@ for (int i = 0; i < a.Length; i++)
         sumPositive = sumPositive + a[i];
     }
 }
-System.Console.WriteLine($"Сумма положительных чисел равна {sumPositive}");
+Console.WriteLine(); Console.WriteLine(); Console.WriteLine($"Сумма положительных чисел равна {sumPositive}");
 
 int sumNegative = 0;
 // print results
