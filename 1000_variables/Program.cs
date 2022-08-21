@@ -80,3 +80,23 @@ while (f == false);
 System.Console.WriteLine(n);
 
 */
+
+
+/* Особенности вывода цифр по очереди через пробел в .NET на C# (input details) 
+
+
+Для демонстрации этих особенностей решим задачу вывода цифр произвольного количества через пробел
+
+string beforeSplit = Console.ReadLine();
+string[] afterSplit = beforeSplit.Split(' '); // команда проставляет символ в скобках между цифрами 
+int[] afterSplitInteger = new int [afterSplit.Length]
+for (int i = 0; i < afterSplitInteger.Length; i++)
+{
+    afterSplitInteger[i] = int.Parse(afterSplit[i]);
+}
+for (int i = 0; i < afterSplitInteger.Length; i++)
+{
+    Console.WriteLine(afterSplitInteger[i]);
+}
+
+*/
