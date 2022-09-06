@@ -14,7 +14,7 @@ GrowNumberToDegrees(aAfterDegree, bAfterDegree);
 
 // 2-я версия: метод "ускоренного" возведения в степень
 
-double RapidGrowNumberToDegrees(double aRapid, double bRapid) // этот метод переделать, он выводит какую-то ерунду: "Результат возведения числа 2 в 2 степень равен:" с проставлением пустых строк
+double RapidGrowNumberToDegrees(double aRapid, double bRapid)
 {
     if (bRapid == 0) return 1;
     else if (bRapid % 2 != 0) return RapidGrowNumberToDegrees(aRapid, bRapid - 1) * aRapid;
